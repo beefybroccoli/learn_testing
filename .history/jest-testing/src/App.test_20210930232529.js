@@ -26,8 +26,6 @@ test("mounts to a kind of simulated DOM", () => {
   //arrange
   const simulatedDOM = render(<App />);
   //assert
-  const h1 = simulatedDOM.queryByText(/lambda/i);
-
-  // console.log(simulatedDOM.debug());
-  console.log(h1.textContent);
+  const h1 = simulationDOM.queryByText(/lambda/i)
+  console.log(simulatedDOM.debug());
 });
