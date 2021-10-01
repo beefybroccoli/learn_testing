@@ -77,20 +77,6 @@ async function block() {
 conast block_a = () => {}
 block_a.then( ()=>{(block_b)} )
 
-*/
 
-/*
-ref : https://javascript.info/async-await
-
-async function f() {
-
-  try {
-    let response = await fetch('http://no-such-url');
-  } catch(err) {
-    alert(err); // TypeError: failed to fetch
-  }
-}
-
-f();
 
 */

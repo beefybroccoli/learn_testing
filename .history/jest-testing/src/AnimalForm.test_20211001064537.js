@@ -80,8 +80,6 @@ block_a.then( ()=>{(block_b)} )
 */
 
 /*
-ref : https://javascript.info/async-await
-
 async function f() {
 
   try {
