@@ -99,8 +99,6 @@ f();
 
 /*
 
-ref - https://stackoverflow.com/questions/41292316/how-do-i-await-multiple-promises-in-parallel-without-fail-fast-behavior
-
 async function foo() {
     await new Promise((r)=>setTimeout(r,1000))
     console.log('foo completed')
@@ -134,7 +132,5 @@ function waitForAll(...ps) {
 }
 
 waitForAll(foo(), bar(), bam()).then(results=>console.log('done', results)
-
-
 
 */

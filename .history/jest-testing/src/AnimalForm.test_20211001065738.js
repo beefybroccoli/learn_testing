@@ -99,42 +99,4 @@ f();
 
 /*
 
-ref - https://stackoverflow.com/questions/41292316/how-do-i-await-multiple-promises-in-parallel-without-fail-fast-behavior
-
-async function foo() {
-    await new Promise((r)=>setTimeout(r,1000))
-    console.log('foo completed')
-    return 'foo result'
-}
-
-async function bar() {
-    await new Promise((r)=>setTimeout(r,1000))
-    console.log('bar completed')
-    return 'bar result'
-}
-
-async function bam() {
-    try {
-        await new Promise((_,reject)=>setTimeout(reject,2000))
-    } catch {
-        console.log('bam errored')
-        throw 'bam'
-    }
-}
-
-function handleRejection(p) {
-    return p.catch((error)=>({
-        error
-    }))
-}
-
-function waitForAll(...ps) {
-    console.log('started...')
-    return Promise.all(ps.map(handleRejection))
-}
-
-waitForAll(foo(), bar(), bam()).then(results=>console.log('done', results)
-
-
-
 */
