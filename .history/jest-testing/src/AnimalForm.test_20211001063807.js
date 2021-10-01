@@ -71,7 +71,6 @@ async function block() {
     .....
   })
 
-  console.log(1+1)
 }
 
 conast block_a = () => {}

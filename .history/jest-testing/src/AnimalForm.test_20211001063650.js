@@ -71,12 +71,16 @@ async function block() {
     .....
   })
 
-  console.log(1+1)
 }
 
-conast block_a = () => {}
-block_a.then(
-  ()=>{(block_b)}
-)
+(() => {
+
+})
+.then(() =>{
+  block_a
+
+})
+
+
 
 */

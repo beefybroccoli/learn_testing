@@ -67,16 +67,14 @@ async function block() {
       .....
   }) 
 
-  const block_b = ( () =>{
+  const block_b = await( () =>{
     .....
   })
 
-  console.log(1+1)
+
+  
+
 }
 
-conast block_a = () => {}
-block_a.then(
-  ()=>{(block_b)}
-)
 
 */

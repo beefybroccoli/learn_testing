@@ -60,23 +60,7 @@ test("Assert: Check to see if species name appears", () => {
 
 /*
 
-async function block() {
+async function block()
 
-
-  const block_a = await ( () => {
-      .....
-  }) 
-
-  const block_b = ( () =>{
-    .....
-  })
-
-  console.log(1+1)
-}
-
-conast block_a = () => {}
-block_a.then(
-  ()=>{(block_b)}
-)
 
 */
