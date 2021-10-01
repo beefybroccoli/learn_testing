@@ -1,0 +1,4 @@
+commands
+
+    npm install -D jest-dom react-testing-library
+    npm install -D 

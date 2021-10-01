@@ -1,11 +1,12 @@
 import { render, screen } from "@testing-library/react";
+import "jest-dom/extend-expect";
+import
 import App from "./App";
 
-test("renders learn react link", () => {
+test("renders a span with the text Hello word", () => {
   //arrange
-  render(<App />);
-  //act
   const wrapper = render(<App />);
-  //assert
+  //act
   console.log(wrapper.debug());
+  //assert
 });

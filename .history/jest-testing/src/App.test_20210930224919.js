@@ -7,5 +7,5 @@ test("renders learn react link", () => {
   //act
   const wrapper = render(<App />);
   //assert
-  console.log(wrapper.debug());
+  console.log(wrapper);
 });

@@ -4,8 +4,6 @@ import App from "./App";
 test("renders learn react link", () => {
   //arrange
   render(<App />);
-  //act
   const wrapper = render(<App />);
-  //assert
-  console.log(wrapper.debug());
+  console.log(wrapper.debug);
 });
