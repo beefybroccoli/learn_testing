@@ -7,7 +7,6 @@ test("renders learn react link", () => {
   //act
   const wrapper = render(<App />);
   //assert
-  
   console.log(wrapper.debug());
 });
 
@@ -29,7 +28,7 @@ test("DOM has an h1 element with text lambda", () => {
   //assert
   //find
   //get - if node is not found, the test fail immediately without assertion
-  //query - node is not found, if assertion fail then the test fail
+  //query - 
   const h1 = simulatedDOM.queryByText(/lambda/i);
 
   // console.log(simulatedDOM.debug());

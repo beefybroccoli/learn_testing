@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <h1 className="heading">Lambda</h1>
       <span className="greet">Hello World</span>
-      <AnimalForm />
     </div>
   );
 }
