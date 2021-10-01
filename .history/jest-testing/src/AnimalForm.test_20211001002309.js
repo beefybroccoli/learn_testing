@@ -42,20 +42,20 @@ test("displays species when submitting all fields", async () => {
   expect(speciesFeedback).toBeInTheDocument();
 });
 
-// test("Assert: Check to see if species name appears", () => {
-//   // Promise Way
-//   const speciesPromise = screen.findByText(species);
-//   speciesPromise.then((speciesFeedback) => {
-//     expect(speciesFeedback).toBeInTheDocument();
-//   });
+test(//Assert: Check to see if species name appears
 
-//   // Async Way
-//   const speciesFeedback = await screen.findByText(species);
-//   expect(speciesFeedback).toBeInTheDocument();
+// Promise Way
+const speciesPromise = screen.findByText(species);
+speciesPromise.then((speciesFeedback) => {
+  expect(speciesFeedback).toBeInTheDocument();
+});
 
-//   // Await Way
-//   await waitFor(() => {
-//     const speciesFeedback = screen.queryByText(species);
-//     expect(speciesFeedback).toBeInTheDocument();
-//   });
-// });
+// Async Way
+const speciesFeedback = await screen.findByText(species);
+expect(speciesFeedback).toBeInTheDocument();
+
+// Await Way
+await waitFor(() => {
+  const speciesFeedback = screen.queryByText(species);
+  expect(speciesFeedback).toBeInTheDocument();
+});
